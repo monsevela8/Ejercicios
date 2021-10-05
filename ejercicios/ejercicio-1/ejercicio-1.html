@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./ejercicio-1.css">
+    <title>Programa 1</title>
+</head>
+<body>
+    <div class="container-page">
+        <div class="row-input">
+            <label class="label-number-articles" for="addArticles">Número de cajas para agregar</label>
+            <input class="input-number" id="addArticles" type="number" min="0">
+        </div>
+        <div class="articles">
+            <div class="new-article">+</div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-container">
+            <h2 class="title-modal">Agrega estilos a la caja</h2>
+            <div class="input-label">
+                <label class="label-text" for="color">Color de la caja</label>
+                <input class="input-color" type="color" id="color">
+            </div>
+            <div class="input-label">
+                <label class="label-text" for="selectStyle">Estilo del borde</label>
+                <select class="select-style" id="selectStyle">
+                    <option value="solid">Solid</option>
+                    <option value="dashed">Dashed</option>
+                    <option value="dotted">Dotted</option>
+                </select>
+            </div>
+            <div class="input-label">
+                <label class="label-text" for="sizeBox">Tamaño del borde</label>
+                <input class="input-size-border" value="1" id="sizeBox" type="number" min="0">
+            </div>
+            <button class="primary-btn save-styles">Guardar</button>
+        </div>
+    </div>
+
+    <script src="ejercicio-1.js"></script>
+</body>
+</html>

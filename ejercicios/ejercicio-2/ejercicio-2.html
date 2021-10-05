@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="ejercicio-2.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <div class="container-page">
+        <form class="form">
+            <div class="input-label">
+                <label class="label-text" for="select1">¿De que color es el limon?</label>
+                <select class="select" id="select1">
+                    <option value="value 1">Azul</option>
+                    <option value="value 2">Morado</option>
+                    <option value="value 3">verde</option>
+                </select>
+            </div>
+            <div class="input-label">
+                <label class="label-text" for="select2">¿De que color son las nubes?</label>
+                <select class="select" id="select2">
+                    <option value="Blanco">Blanco</option>
+                    <option value="Rojo">Rojo</option>
+                    <option value="Amarillo">Amarillo</option>
+                </select>
+            </div>
+            <div class="input-label">
+                <label class="label-text" for="select3">¿Dia de las madres?</label>
+                <select class="select" id="select3">
+                    <option value="5 de mayo">5 de mayo</option>
+                    <option value="10 de mayo">10 de mayo</option>
+                    <option value="22 de mayo">22 de mayo</option>
+                </select>
+            </div>
+            <div class="input-label">
+                <label class="label-text">¿Cual es una fruta?</label>
+                <div class="item-radio">
+                    <input class="radio-button" type="radio" id="option1" name="radios" value="opcion 1">
+                    <label for="Fresa">Fresa</label>
+                </div>
+                <div class="item-radio">
+                    <input class="radio-button" type="radio" id="option2" name="radios" value="opcion 2">
+                    <label for="Espinaca">Espinaca</label>
+                </div>
+                <div class="item-radio">
+                    <input class="radio-button" type="radio" id="option3" name="radios" value="opcion 3">
+                    <label for="Pimiento">Pimiento</label>
+                </div>
+            </div>
+            <div class="input-label">
+                <label class="label-text">Selecciona la marca de auto</label>
+                <div class="item-checkbox">
+                    <input class="checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="opcion 1">
+                    <label for="Colgate"> Colgate</label>
+                </div>
+                <div class="item-checkbox">
+                    <input class="checkbox" type="checkbox" id="vehicle2" name="vehicle2" value="opcion 2">
+                    <label for="Michelin"> Michelin</label>
+                </div>
+                <div class="item-checkbox">
+                    <input class="checkbox" type="checkbox" id="vehicle3" name="vehicle3" value="opcion 3">
+                    <label for="Ford"> Ford</label>
+                </div>
+            </div>
+            <button type="submit" class="primary-btn save">Mostrar respuestas</button>
+        </form>
+        <div class="answers">
+            <p class="text">Respuestas del usuario</p>
+            <p class="question">pregunta 1: <span class="answerOne" >La respuesta es: </span></p>
+            <p class="question">pregunta 2: <span class="answerTwo">La respuesta es:</span></p>
+            <p class="question">pregunta 3: <span class="answerThree">La respuesta es:</span></p>
+        </div>
+    </div>
+    <script src="ejercicio-2.js"></script>
+</body>
+</html>

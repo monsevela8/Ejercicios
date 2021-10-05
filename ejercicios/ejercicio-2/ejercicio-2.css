@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-page {
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 2px;
+    width: 400px;
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.label-text {
+    color: rgba(0,0,0,0.7);
+    margin-bottom: 10px;
+    width: max-content;
+}
+
+.select {
+    height: 35px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 2px;
+    color: rgba(0,0,0,0.7);
+}
+
+.item-radio, .item-checkbox {
+    color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+}
+
+.radio-button, .checkbox {
+    margin-right: 5px;
+}
+
+.primary-btn {
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    background: #6c5ce7;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.answers {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 15px;
+
+}
+
+.question {
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.answer {
+    font-size: 17px;
+    font-style: italic;
+    margin-left: 10px;
+}
